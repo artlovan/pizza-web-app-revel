@@ -1,0 +1,60 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ece9e2;
+  font-family: 'Squada One', cursive;
+  font-size: 24px;
+}
+
+input, select {
+	font-family: sans-serif;
+}
+
+body {
+  padding-top: 1em;
+}
+
+hr {
+	border-color: #898579;
+}
+
+form {
+	margin-top: 1em;
+}
+
+a,
+span,
+div,
+h2 {
+  text-transform: uppercase;
+  color: #898579;
+}
+
+a:hover {
+  color: #ee5b49;
+}
+
+.actions {
+  margin-top: 2em;
+}
+
+.actions img {
+  height: 165px;
+}
+
+.text-small {
+  font-size: 0.7rem;
+}
+
+button {
+  background-color: #ee5b49;
+  color: #ece9e2;
+  text-transform: uppercase;
+  border: none;
+  padding: 0.3em 1em;
+  border-radius: 0.3em;
+}

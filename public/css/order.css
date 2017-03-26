@@ -1,0 +1,187 @@
+.pizza-size {
+  margin-top: 3em;
+}
+
+.pizza-size .size {
+  background-color: #898579;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.pizza-size .size:hover,
+.pizza-size .size.selected {
+  background-color: #ee5b49;
+  pointer: cursor;
+}
+
+.pizza-size .small {
+  width: 1em;
+  height: 1em;
+}
+
+.pizza-size .medium {
+  width: 1.6em;
+  height: 1.6em;
+}
+
+.pizza-size .large {
+  width: 2.2em;
+  height: 2.2em;
+}
+
+.pizza-size .x-large {
+  width: 3em;
+  height: 3em;
+}
+
+.pizza-size .sheet {
+  width: 3em;
+  height: 4em;
+  border-radius: 0.3em;
+}
+
+.toppings {
+  margin-top: 2em;
+}
+
+.toppings div[data-topping] {
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-origin: 50%;
+  background-position: 50%;
+  height: 2.5em;
+}
+
+.total {
+  margin-top: 1em;
+}
+
+button {
+  backgrou
+}
+
+[data-topping=anchovie] {
+  background-image: url(../images/toppings/anchovie.png);
+}
+
+[data-topping=anchovie].selected,
+[data-topping=anchovie]:hover {
+  background-image: url(../images/toppings/anchovie_hi.png);
+}
+
+[data-topping=pepperoni] {
+  background-image: url(../images/toppings/pepperoni.png);
+}
+
+[data-topping=pepperoni].selected,
+[data-topping=pepperoni]:hover {
+  background-image: url(../images/toppings/pepperoni_hi.png);
+}
+
+[data-topping=shrimp] {
+  background-image: url(../images/toppings/shrimp.png);
+}
+
+[data-topping=shrimp].selected,
+[data-topping=shrimp]:hover {
+  background-image: url(../images/toppings/shrimp_hi.png);
+}
+
+[data-topping=spinach] {
+  background-image: url(../images/toppings/spinach.png);
+}
+
+[data-topping=spinach].selected,
+[data-topping=spinach]:hover {
+  background-image: url(../images/toppings/spinach_hi.png);
+}
+
+[data-topping=tomato] {
+  background-image: url(../images/toppings/tomato.png);
+}
+
+[data-topping=tomato].selected,
+[data-topping=tomato]:hover {
+  background-image: url(../images/toppings/tomato_hi.png);
+}
+
+[data-topping=ham] {
+  background-image: url(../images/toppings/ham.png);
+}
+
+[data-topping=ham].selected,
+[data-topping=ham]:hover {
+  background-image: url(../images/toppings/ham_hi.png);
+}
+
+[data-topping=jalapeno] {
+  background-image: url(../images/toppings/jalapeno.png);
+}
+
+[data-topping=jalapeno].selected,
+[data-topping=jalapeno]:hover {
+  background-image: url(../images/toppings/jalapeno_hi.png);
+}
+
+[data-topping=mushroom] {
+  background-image: url(../images/toppings/mushroom.png);
+}
+
+[data-topping=mushroom].selected,
+[data-topping=mushroom]:hover {
+  background-image: url(../images/toppings/mushroom_hi.png);
+}
+
+[data-topping=olive] {
+  background-image: url(../images/toppings/olive.png);
+}
+
+[data-topping=olive].selected,
+[data-topping=olive]:hover {
+  background-image: url(../images/toppings/olive_hi.png);
+}
+
+[data-topping=onion] {
+  background-image: url(../images/toppings/onion.png);
+}
+
+[data-topping=onion].selected,
+[data-topping=onion]:hover {
+  background-image: url(../images/toppings/onion_hi.png);
+}
+
+[data-topping=avocado] {
+  background-image: url(../images/toppings/avocado.png);
+}
+
+[data-topping=avocado].selected,
+[data-topping=avocado]:hover {
+  background-image: url(../images/toppings/avocado_hi.png);
+}
+
+[data-topping=cheese] {
+  background-image: url(../images/toppings/cheese.png);
+}
+
+[data-topping=cheese].selected,
+[data-topping=cheese]:hover {
+  background-image: url(../images/toppings/cheese_hi.png);
+}
+
+[data-topping=chicken] {
+  background-image: url(../images/toppings/chicken.png);
+}
+
+[data-topping=chicken].selected,
+[data-topping=chicken]:hover {
+  background-image: url(../images/toppings/chicken_hi.png);
+}
+
+[data-topping=green_pepper] {
+  background-image: url(../images/toppings/green_pepper.png);
+}
+
+[data-topping=green_pepper].selected,
+[data-topping=green_pepper]:hover {
+  background-image: url(../images/toppings/green_pepper_hi.png);
+}

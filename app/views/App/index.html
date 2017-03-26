@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="/public/images/pizza-32.png" type="image/png">
+    <link rel="stylesheet" href="/public/css/app.css">
+    <title>Italian Ristorante</title>
+  </head>
+  <body class="container">
+    <div class="row">
+      <div class="col-sm-4 col-sm-offset-4">
+        <img src="/public/images/banner.png" class="img-responsive">
+      </div>
+      <div class="col-sm-4 text-right">
+        <a href="{{url "Accounts.Create"}}">Create Account</a>
+      </div>
+    </div>
+    <div class="row actions">
+      <div class="col-sm-2 col-sm-offset-1">
+        <div>
+          <a href="#">
+            <img src="/public/images/eat_in.png" class="img-responsive">
+          </a>
+        </div>
+        <h2 class="text-center">Eat In</h2>
+      </div>
+      <div class="col-sm-2 col-sm-offset-2">
+        <div>
+          <a href="#">
+            <img src="/public/images/man_holding_pizza.png" class="img-responsive">
+          </a>
+        </div>
+        <h2 class="text-center">Carry Out</h2>
+      </div>
+      <div class="col-sm-3 col-sm-offset-1">
+        <div>
+          <a href="{{url "Orders.Create"}}">
+            <img src="/public/images/delivery_2.png" class="img-responsive">
+          </a>
+        </div>
+        <h2 class="text-center">Deliver</h2>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="/public/images/pizza-32.png" type="image/png">
+    <link rel="stylesheet" href="/public/css/app.css">
+    <link rel="stylesheet" href="/public/css/order.css">
+    <title>Italian Ristorante</title>
+  </head>
+  <body class="container">
+    <div class="row">
+      <div class="col-sm-1 col-sm-offset-1">
+        <img src="/public/images/banner_vertical.png" alt="" class="img-responsive">
+      </div>
+      <div class="col-sm-4 col-sm-offset-2">
+        <img src="/public/images/oven.png" alt="" class="img-responsive">
+      </div>
+      <div class="col-sm-1 col-sm-offset-2">
+        <img src="/public/images/banner_vertical.png" alt="" class="img-responsive">
+      </div>
+    </div>
+    <div class="row pizza-size">
+      <div class="col-sm-2 col-sm-offset-2">
+        <span>Size</span>
+      </div>
+      <div class="col-sm-1">
+        <div class="size small" data-price="6.00">&nbsp;</div>
+        <div class="text-small text-center">6"</div>
+      </div>
+      <div class="col-sm-1">
+        <div class="size medium" data-price="8.00">&nbsp;</div>
+        <div class="text-small text-center">10"</div>
+      </div>
+      <div class="col-sm-1">
+        <div class="size large" data-price="10.00">&nbsp;</div>
+        <div class="text-small text-center">12"</div>
+      </div>
+      <div class="col-sm-1">
+        <div class="size x-large" data-price="12.50">&nbsp;</div>
+        <div class="text-small text-center">14"</div>
+      </div>
+      <div class="col-sm-1" >
+        <div class="size sheet" data-price="15.00">&nbsp;</div>
+        <div class="text-small text-center">Sheet</div>
+      </div>
+      <div class="col-sm-1 col-sm-offset-1 text-right">
+        <span id="sizePrice">$0.00</span>
+      </div>
+    </div>
+    <div class="row toppings">
+      <div class="col-sm-2 col-sm-offset-2">
+        <span>Toppings</span>
+      </div>
+      <div class="col-sm-6">
+        <div class="row">
+          <div class="col-sm-2" data-topping="anchovie">&nbsp;</div>
+          <div class="col-sm-2" data-topping="pepperoni">&nbsp;</div>
+          <div class="col-sm-2" data-topping="shrimp">&nbsp;</div>
+          <div class="col-sm-2" data-topping="spinach">&nbsp;</div>
+          <div class="col-sm-2" data-topping="tomato">&nbsp;</div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2" data-topping="ham">&nbsp;</div>
+          <div class="col-sm-2" data-topping="jalapeno">&nbsp;</div>
+          <div class="col-sm-2" data-topping="mushroom">&nbsp;</div>
+          <div class="col-sm-2" data-topping="olive">&nbsp;</div>
+          <div class="col-sm-2" data-topping="onion">&nbsp;</div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2 col-sm-offset-1" data-topping="avocado">&nbsp;</div>
+          <div class="col-sm-2" data-topping="cheese">&nbsp;</div>
+          <div class="col-sm-2" data-topping="chicken">&nbsp;</div>
+          <div class="col-sm-2" data-topping="green_pepper">&nbsp;</div>
+        </div>
+      </div>
+      <div class="col-sm-1 text-right">
+        <span id="toppingPrice">$0.00</span>
+      </div>
+    </div>
+
+    <div class="row total">
+      <div class="col-sm-1 col-sm-offset-9">
+        <span>Total</span>
+      </div>
+      <div class="col-sm-1 text-right">
+        <span id="totalPrice">$0.00</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-11 text-right">
+        <button id="submit">Checkout</button>
+      </div>
+    </div>
+    <script src="{{url "Static.Serve" "public" "js/jquery.min.js"}}"></script>
+    <script src="{{url "Static.Serve" "public" "js/order.js"}}"></script>
+  </body>
+</html>
